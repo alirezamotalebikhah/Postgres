@@ -24,6 +24,18 @@ with engine.connect() as connection:
         {"Name":row[0]}
         for row in result_start_with_m
     ]
+    query_two_last_a = select(customer_table.c.Name).where(customer_table.c.Name.like('%a_'))
+    result_two_last_a = connection.execute(query_two_last_a).fetchall()
+    result_two_last_a =[
+        {"Name" : row [0]}
+        for row in result_two_last_a
+    ]
+    query_start_with_A_end_with_i = select(customer_table.c.Name).where(customer_table.c.Name.like('A%i'))
+    result_start_with_A_end_with_i = connection.execute(query_start_with_A_end_with_i).fetchall()
+    result_start_with_A_end_with_i=[
+        {"Name":row[0]}
+        for row in result_start_with_A_end_with_i
+    ]
 print("\nQuery1 : end with a")
 for result in result_end_with_a:
     print(f"Name:{result['Name']}")
@@ -33,3 +45,10 @@ for result in result_contains_z:
 print("\nQuery3 : start with m")
 for result in result_start_with_m:
     print(f"Name:{result['Name']}")
+print("\nQuery4 : two last a")
+for result in result_two_last_a:
+    print(f"Name:{result['Name']}")
+print("\nQuery5 : start with A and end with i")
+for result in result_start_with_A_end_with_i:
+    print(f"Name:{result['Name']}")
+
