@@ -7,8 +7,8 @@ product_table = Table ('Product' , metadata,autoload_with=engine)
 with engine.connect() as connection:
     sample_data =[
         {'ProductId': '1' , 'Name' : 'Book' , 'Price':'35'},
-        {'ProductId': '2' , 'Name' : 'Notebook' , 'Price':'35'},
-        {'ProductId': '3' , 'Name' : 'phone' , 'Price':'35'},
+        {'ProductId': '2' , 'Name' : 'Notebook' , 'Price':'55'},
+        {'ProductId': '3' , 'Name' : 'phone' , 'Price':'44'},
     ]
     connection.execute(product_table.insert(), sample_data)
     connection.commit()
