@@ -1,6 +1,8 @@
 from sqlalchemy import create_engine, MetaData, Table, select, join
 from datetime import date
 import time
+import time
+t0 = time.perf_counter()
 
 # Connect to the database
 engine = create_engine('postgresql://myuser:mypassword@localhost:5432/mydatabase')
@@ -89,3 +91,4 @@ with engine.connect() as connection:
     print(f"\nFULL OUTER JOIN Result (Customer and OrderApp) - {date.today()} {time.strftime('%I:%M %p CEST')}:")
     for result in full_results:
         print(f"CustomerId: {result['CustomerId']}, Name: {result['Name']}, OrderId: {result['OrderId']}, DateSent: {result['DateSent']}")
+print(f"runtime:{time.perf_counter() - t0:.3f} seconds")
