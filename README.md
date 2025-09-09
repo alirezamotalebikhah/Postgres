@@ -60,20 +60,7 @@ Before starting the tutorial, ensure you have:
 
    *Note: The tutorial also demonstrates using SQLite for practice, so PostgreSQL installation is optional.*
 
-## 📂 Repository Structure
 
-```
-Postgres/
-├── lesson-01/          # Introduction to databases and setup
-├── lesson-02/          # Basic SQLAlchemy connection
-├── lesson-03/          # Creating tables and models
-├── lesson-04/          # CRUD operations
-├── lesson-05/          # Database relationships
-├── lesson-06/          # Advanced queries
-├── ...                 # Additional lessons
-├── examples/           # Complete working examples
-├── exercises/          # Practice exercises
-└── README.md          # This file
 ```
 
 ## 🎯 How to Use This Repository
@@ -177,20 +164,10 @@ pip install psycopg2-binary
 
 ## 🤝 Community & Support
 
-- **YouTube Comments**: Ask questions directly on the video lessons
 - **GitHub Issues**: Report problems or suggest improvements for this repository
 - **Community Discussion**: Connect with other learners following the same tutorial
 
-## 📞 Getting Help
 
-If you encounter issues while following the tutorial:
-
-1. **Check the video comments** - others may have faced similar issues
-2. **Review the code carefully** - ensure you've copied everything correctly  
-3. **Create an issue** in this repository with:
-   - Which lesson you're working on
-   - The error message you're seeing
-   - Your operating system and Python version
 
 ## 🙏 Acknowledgments
 
@@ -198,9 +175,6 @@ If you encounter issues while following the tutorial:
 - **Community**: Thanks to all viewers who provide feedback and suggestions
 - **Open Source**: Built using amazing open-source tools like Python, PostgreSQL, and SQLAlchemy
 
-## 📄 License
-
-This educational repository is available for learning purposes. Please refer to individual lesson materials for specific usage guidelines.
 
 ---
 
@@ -208,7 +182,5 @@ This educational repository is available for learning purposes. Please refer to 
 
 1. **[📺 Open the YouTube Playlist](https://www.youtube.com/playlist?list=PLqrcj3pm68R0bTfDamtHejmn8P8XbnzYg)**
 2. **Clone this repository**  
-3. **Start with Lesson 1**
-4. **Code along and practice!**
 
 **Happy Learning!** 🐍🗄️📚
