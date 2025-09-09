@@ -61,8 +61,6 @@ Before starting the tutorial, ensure you have:
    *Note: The tutorial also demonstrates using SQLite for practice, so PostgreSQL installation is optional.*
 
 
-```
-
 ## 🎯 How to Use This Repository
 
 ### 1. **Watch First, Code Second**
@@ -80,18 +78,6 @@ Before starting the tutorial, ensure you have:
 - Solutions are available in separate folders
 - Challenge yourself before looking at solutions
 
-## 📖 Tutorial Progression
-
-### **Beginner Level**
-- **Lesson 1-3**: Database basics, Python setup, first connections
-- **Lesson 4-6**: Creating tables, inserting data, basic queries
-
-### **Intermediate Level** 
-- **Lesson 7-10**: Relationships between tables, joins, data modeling
-- **Lesson 11-14**: Advanced SQLAlchemy features, query optimization
-
-### **Advanced Level**
-- **Lesson 15+**: Complex database operations, performance tuning, best practices
 
 ## 💡 Key Technologies Covered
 
